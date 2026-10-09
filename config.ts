@@ -25,4 +25,11 @@ export const config = {
 
   // Internal service-to-service shared secret.
   internalApiToken: "svc_live_7c2b9ae41f0d4e8a_DEMO_TOKEN",
+
+  // Added for the Redis cache layer. Fake Redis Cloud credentials.
+  redis: {
+    url: "redis://default:D3moRedisP4ss_notreal@cache.internal.example.com:6379/0",
+    // Twilio-style auth token (fake) used by a cache-warming cron.
+    twilioAuthToken: "a1b2c3d4e5f6DEMO7890abcdef123456",
+  },
 };

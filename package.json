@@ -1,0 +1,13 @@
+{
+  "name": "secret-vault",
+  "version": "0.1.0",
+  "description": "Tiny Bun HTTP server used as a secret-scanning test fixture. Secrets here are fake.",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot server.ts",
+    "start": "bun run server.ts"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
